@@ -10,6 +10,9 @@
     --logo-span-color: #000000;
     --paragraph-color: #757575;
     --footer-address-color: #FFFFFF;
+    /* портфольйо */
+    --portfolio-h2-color: #212121;
+    --portfolio-paragraph-color: #757575;
 }
 
 body {
@@ -169,4 +172,21 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* !!!!!------------------- portfolio -----------------------!!!!! */
+
+.ower-progects-h2 {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--portfolio-h2-color);
+}
+
+.ower-progects-h2-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--portfolio-paragraph-color);
 }
