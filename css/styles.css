@@ -1,20 +1,21 @@
 /*  global style    */
 
 body {
-    font-family: Roboto, Arial, Times New Roman, sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto" sans-serif;
+    color: #434455;
+    background-color: #FFFFFF
 }
 
 h1 {
     font-size: 56px;
-    line-height: 1,071;
+    line-height: 1,07;
     color: #FFF;
     font-weight: 700;
 }
 
 h2 {
     font-size: 36px;
-    line-height: 1,111;
+    line-height: 1,11;
     font-weight: 700;
 }
 
@@ -32,6 +33,20 @@ p {
 }
 
 /*          header        */
+
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 1,17;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-header-color {
+    color: #2e2f42;
+}
 
 .nav-ul-li {
     font-size: 16px;
